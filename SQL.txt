@@ -1,0 +1,42 @@
+Here are the answers to your database questions:
+
+**1. What's a database?**
+A database is an organized collection of structured information or data stored electronically in a computer system. It allows for efficient storage, retrieval, management, and manipulation of data.
+
+**2. What's a relational database?**
+A relational database organizes data into tables (relations) consisting of rows and columns. Tables can be linked through relationships based on common data fields, following the relational model developed by Edgar Codd.
+
+**3. What does DB stand for?**
+DB stands for Database.
+
+**4. What does BDD stand for?**
+BDD can stand for several things depending on context:
+- **Behavior-Driven Development** (software development methodology)
+- **Base de Données** (French for database)
+- **Business-Driven Development**
+
+**5. What does DBMS stand for?**
+DBMS stands for Database Management System - software that provides an interface between users and databases, handling data storage, retrieval, security, and integrity.
+
+**6. What does SQL stand for?**
+SQL stands for Structured Query Language.
+
+**7. What's the difference between SQL and MySQL?**
+SQL is a standardized language for managing relational databases, while MySQL is a specific database management system that uses SQL. Think of SQL as the language and MySQL as one particular software that speaks that language (along with Oracle, PostgreSQL, SQL Server, etc.).
+
+**8. In SQL, what's a subquery?**
+A subquery is a query nested inside another SQL statement. It's executed first, and its results are used by the outer query. For example: `SELECT * FROM employees WHERE salary > (SELECT AVG(salary) FROM employees)`.
+
+**9. What do DDL and DML stand for and what are they?**
+- **DDL (Data Definition Language)**: Commands that define database structure (CREATE, ALTER, DROP, TRUNCATE)
+- **DML (Data Manipulation Language)**: Commands that manipulate data within tables (SELECT, INSERT, UPDATE, DELETE)
+
+**10. What's a primary key in SQL?**
+A primary key is a column or combination of columns that uniquely identifies each row in a table. It cannot contain NULL values and must be unique across all rows.
+
+**11. What's a foreign key in SQL?**
+A foreign key is a column or set of columns in one table that refers to the primary key in another table. It creates a link between tables and enforces referential integrity.
+
+**12. What do we use the NOT NULL and UNIQUE constraints for?**
+- **NOT NULL**: Ensures a column cannot have empty values - every row must contain data for that field
+- **UNIQUE**: Ensures all values in a column are different from each other - no duplicates allowed (but NULL values may be permitted unless combined with NOT NULL)
